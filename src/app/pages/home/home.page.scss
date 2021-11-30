@@ -1,0 +1,66 @@
+
+ion-content{
+    --background: #F4FAF6 !important;
+}
+
+
+.header-ios .main-toolbar{
+
+    --background: transparent !important;
+    --border-width:0 !important;
+    height: 80px !important;
+    --min-height:105px !important;
+    margin:0;
+}
+
+.header-md .main-toolbar{
+    --backgroud: transparent !important;
+    --border-width:0 !important;
+    height: 80px !important;
+    --min-height:105px !important;
+    margin:0;
+    font-size: 14px;
+}
+
+.header-ios , .header-md ion-title{
+    padding-inline-start: 0;
+    font-family: Monserrat_Regular;
+    font-weight: 200;
+    padding-left: 30px;
+    color: white;
+    font: size 11px;    
+}
+
+.small-toolbar{
+    --background:transparent !important;
+    text-align: right !important;
+    margin-right: 20px;
+}
+
+.small-toolbar .icon{
+    font-size: 26px;
+    color: gray;
+}
+
+.header-md{
+    text-align: left;
+    padding-left: 50px;
+    font-family: Montserrat;
+    font-weight: 200;
+    font-style: normal;
+}
+
+.title-toolbar{
+    text-align: left;
+    padding-left: 50px;
+    font-family: Montserrat;
+    font-weight: 200;
+    font-style: normal;
+}
+
+.title-toolbar .title{
+    font-family: LibreBaskerville;
+    font-size: 18px;
+    font-weight: 700;
+    color: #3F9B99;
+}
