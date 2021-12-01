@@ -1,6 +1,6 @@
 
 ion-content{
-    --background:#F4FAF6 !important; 
+    --background:#8b7be4 !important; 
  }
  .header-ios .main-toolbar{
      --background:transparent !important;
@@ -18,7 +18,7 @@ ion-content{
      height:80px !important;
      --min-height:135px !important;
      margin: 0;
-     font-size: 14px;
+     font-size: 60px;
  
  
  }
@@ -29,7 +29,7 @@ ion-content{
      font-weight: 200;
      padding-left: 30px;
      color:#E5E5E5;
-     font-size:12px;
+     font-size:20px;
  }
  
  ion-title{
@@ -38,7 +38,8 @@ ion-content{
      font-weight: 200;
      padding-left: 30px;
      color:#d4d4d4;
-     font-size:12px;
+     font-size:20px;
+     text-align: center;
  }
  
  .small-toolbar{
@@ -54,7 +55,7 @@ ion-content{
  
  .header-md{
      .title-toolbar{
-         text-align: left;
+         text-align: center;
          padding-left: 30px;
          font-family: 'Montserrat';
          font-weight: 200;
@@ -65,13 +66,13 @@ ion-content{
          font-family: 'Libre Baskerville';
          font-size: 18px;
          font-weight: 700;
-         color: #3F9B99;
+         color: #161818;
      
      }
  }
  
  .title-toolbar{
-     text-align: left;
+     text-align: center !important;
      padding-left: 30px;
      font-family: 'Montserrat';
      font-weight: 200;
@@ -85,7 +86,8 @@ ion-content{
      font-family: LibreBaskerville;
      font-size: 18px;
      font-weight: 700;
-     color: #3F9B99 !important;
+     color: #222525 !important;
+     text-align: center !important;
  
  }
  
@@ -137,7 +139,7 @@ ion-content{
       
  }
  ion-slides{
-     --bullet-background: white;
+     --bullet-background: rgb(211, 167, 167);
      --bullet-background-active: yellow;
  }
  
@@ -146,11 +148,11 @@ ion-content{
  }
  
  .swiper-slide {
-     color:red;
+     color:rgb(161, 102, 102);
  }
  
  .main-product-card{
-     background: #2E8B53;
+     background: #4d2bca;
      border-radius: 20px;
  }
  
