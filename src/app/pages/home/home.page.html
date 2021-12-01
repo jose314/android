@@ -1,19 +1,25 @@
 <ion-header class="ion-no-borders">
-  <ion-toolbar style="background: #FAF6F6">
+  <ion-toolbar style="background: #FAF6F6" class="main-toolbar">
     Welcome to freshfruit
   </ion-toolbar>
 </ion-header>
-<ion-header class="ion-no-border">
-  <ion-toolbar style="background:#FAF6F6">
+<ion-header class="ion-no-border" style="background:#FAF6F6">
+    
     <div class="small-toolbar">
       <ion-icon ios="menu-outline" md="menu-sharp" name="menu" class="icon"></ion-icon>
     </div> 
     <div class="title-toolbar">
-      <String class="title">Shop</String> Here
+      <Strong class="title">Shop here</Strong>
+
     </div>
-  </ion-toolbar>
+
 </ion-header>
 
-<ion-content>
- <p>Hello world</p>
+<ion-content [fullscreen]="true">
+  <div id="content">
+
+    <div class="seachbar">
+      <ion-searchbar></ion-searchbar>
+    </div>
+  </div>
 </ion-content>

@@ -24,6 +24,10 @@ const routes: Routes = [
     path: '',
     redirectTo:'tabs/home',
     pathMatch:'full'
+  },
+  {
+    path: 'home',
+    loadChildren: () => import('./pages/home/home.module').then( m => m.HomePageModule)
   }
 ];
 
