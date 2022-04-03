@@ -12,25 +12,7 @@ ion-content{
  
  }
  
- .header-md .main-toolbar{
-     --background:transparent !important;
-     --border-width:0 !important;
-     height:80px !important;
-     --min-height:135px !important;
-     margin: 0;
-     font-size: 60px;
  
- 
- }
- 
- .header-md ion-title{
-     padding-inline-start: 0;
-     font-family: Montserrat_Regular;
-     font-weight: 200;
-     padding-left: 30px;
-     color:#E5E5E5;
-     font-size:20px;
- }
  
  ion-title{
      padding-inline-start: 0;
@@ -42,11 +24,7 @@ ion-content{
      text-align: center;
  }
  
- .small-toolbar{
-     --background-color: transparent;
-     text-align:right;
-     margin-right: 20px;
- }
+ 
  
  .small-toolbar .icon{
      font-size: 26px;
