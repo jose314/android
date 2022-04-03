@@ -1,6 +1,6 @@
 
 ion-content{
-    --background:#8b7be4 !important; 
+    --background:#356234 !important; 
  }
  .header-ios .main-toolbar{
      --background:transparent !important;
@@ -37,7 +37,7 @@ ion-content{
      font-family: Montserrat_Regular;
      font-weight: 200;
      padding-left: 30px;
-     color:#d4d4d4;
+     color:#DFEF35;
      font-size:20px;
      text-align: center;
  }
@@ -140,7 +140,7 @@ ion-content{
  }
  ion-slides{
      --bullet-background: rgb(211, 167, 167);
-     --bullet-background-active: yellow;
+     --bullet-background-active: rgb(170, 170, 73);
  }
  
  .card-wrapper{
@@ -152,7 +152,7 @@ ion-content{
  }
  
  .main-product-card{
-     background: #4d2bca;
+     background: #99a323;
      border-radius: 20px;
  }
  
