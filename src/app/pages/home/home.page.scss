@@ -1,6 +1,6 @@
 
 ion-content{
-    --background:#356234 !important; 
+    --background:#037901 !important; 
  }
  .header-ios .main-toolbar{
      --background:transparent !important;
@@ -30,6 +30,7 @@ ion-content{
      padding-left: 30px;
      color:#E5E5E5;
      font-size:20px;
+     align-content: right;
  }
  
  ion-title{
@@ -40,12 +41,6 @@ ion-content{
      color:#DFEF35;
      font-size:20px;
      text-align: center;
- }
- 
- .small-toolbar{
-     --background-color: transparent;
-     text-align:right;
-     margin-right: 20px;
  }
  
  .small-toolbar .icon{
@@ -122,7 +117,7 @@ ion-content{
      --border-radius:15px;
     color:black;
      //--background: #e6e6e6;
-     --background:rgb(205, 235, 245);
+     --background:#1dac1b;
  }
  .searchbar-input.sc-ion-searchbar-ios
  {
@@ -144,7 +139,7 @@ ion-content{
  }
  
  .card-wrapper{
-     background: #F2BC54 !important;   
+     background: #ffffff !important;   
  }
  
  .swiper-slide {
@@ -152,7 +147,7 @@ ion-content{
  }
  
  .main-product-card{
-     background: #99a323;
+     background: #ffffff;
      border-radius: 20px;
  }
  
@@ -168,7 +163,7 @@ ion-content{
  ion-card-title {
      font-size: 14px;
      font-family: Montserrat_Regular;
-     color: #fff;
+     color: rgb(38, 0, 255);
      font-weight: 200;
  }
  
