@@ -1,6 +1,6 @@
 
 ion-content{
-    --background:#037901 !important; 
+    --background:#356234 !important; 
  }
  .header-ios .main-toolbar{
      --background:transparent !important;
@@ -11,10 +11,18 @@ ion-content{
  
  
  }
+
  
  
+ .header-md .main-toolbar{
+     --background:transparent !important;
+     --border-width:0 !important;
+     height:80px !important;
+     --min-height:135px !important;
+     margin: 0;
+     font-size: 60px;
  
-<<<<<<< HEAD
+ 
  }
  
  .header-md ion-title{
@@ -27,8 +35,6 @@ ion-content{
      align-content: right;
  }
  
-=======
->>>>>>> 3bdd25d139ad5d2f4271af1729442ed407755afb
  ion-title{
      padding-inline-start: 0;
      font-family: Montserrat_Regular;
@@ -39,11 +45,6 @@ ion-content{
      text-align: center;
  }
  
-<<<<<<< HEAD
-=======
- 
- 
->>>>>>> 3bdd25d139ad5d2f4271af1729442ed407755afb
  .small-toolbar .icon{
      font-size: 26px;
      color: grey;
@@ -118,7 +119,7 @@ ion-content{
      --border-radius:15px;
     color:black;
      //--background: #e6e6e6;
-     --background:#1dac1b;
+     --background:#F4FAF6;
  }
  .searchbar-input.sc-ion-searchbar-ios
  {
@@ -166,13 +167,14 @@ ion-content{
      font-family: Montserrat_Regular;
      color: rgb(38, 0, 255);
      font-weight: 200;
+     
  }
  
  ion-card-subtitle {
-     font-size: 8px;
+     font-size: 12px;
      font-family: Montserrat_Regular;
      font-weight: 200;
-     color: #cfcfcf;
+     color: #000000;
      padding-top: 10px;
      // padding-bottom: 20px;
  }

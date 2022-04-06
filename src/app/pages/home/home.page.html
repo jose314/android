@@ -1,20 +1,52 @@
 <ion-header class="ion-no-border">
   <ion-toolbar style="background:#356234" class="main-toolbar">
-   <ion-title>
-        <img src="assets/logo.png" />     
+   <ion-title>   
+      <img src="assets/Logo.png">
     </ion-title>
+    <ion-icon name="log-out" style="width:650px;" size="large" >
+      
+    </ion-icon>
     </ion-toolbar>
 </ion-header>
-<ion-header class="ion-no-border" style="background:#F4FAF6;">
+<ion-header class="ion-no-border" style="background:#faf4f4;">
 
-<<<<<<< HEAD
-=======
-   
-
-   
->>>>>>> 3bdd25d139ad5d2f4271af1729442ed407755afb
   
 </ion-header>
+
+<!--footer tab-->
+
+<ion-footer class="ion-no-border" style="background-color: #356234;">
+  <ion-toolbar>
+    <ion-title>Footer - No Border</ion-title>
+    <ion-tabs>
+      <ion-tab tab="tab-speaker">
+      <ion-nav></ion-nav>
+      </ion-tab>
+  
+      <ion-tab tab="tab-about" component="page-about">
+        <ion-nav></ion-nav>
+      </ion-tab>
+    
+      <ion-tab-bar slot="bottom" style="border: #356234;">
+        <ion-tab-button tab="tab-menu" style="background:#356234;">
+          <ion-icon name="menu" style="color:#F4FAF6"></ion-icon>
+          <ion-label style="color:#ffffff">Menu</ion-label>
+        </ion-tab-button>
+    
+        <ion-tab-button tab="tab-home" style="background:#356234">
+          <ion-icon name="home" style="color:#F4FAF6"></ion-icon>
+          <ion-label style="color:#F4FAF6">Home </ion-label>
+        </ion-tab-button>
+    
+        <ion-tab-button tab="tab-profile" style="background:#356234">
+          <ion-icon name="person-circle" style="color:#ffffff"></ion-icon>
+          <ion-label style="color:#F4FAF6">profile</ion-label>
+        </ion-tab-button>
+      </ion-tab-bar>
+  
+    </ion-tabs>
+  </ion-toolbar>   
+</ion-footer>
 
 <ion-content [fullscreen]="true">
 
@@ -569,9 +601,6 @@
           </ion-card-content>
         </ion-card>
       </ion-slide>
-
-
-
 
 
 
