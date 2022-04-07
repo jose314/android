@@ -1,6 +1,6 @@
 
 ion-content{
-    --background:#356234 !important; 
+    --background:wheat !important; 
  }
  .header-ios .main-toolbar{
      --background:transparent !important;
@@ -8,6 +8,7 @@ ion-content{
      height:80px !important;
      --min-height:125px !important;
      margin: 0;
+     background-color: wheat;
  
  
  }
@@ -21,6 +22,7 @@ ion-content{
      --min-height:135px !important;
      margin: 0;
      font-size: 60px;
+     background-color: wheat;
  
  
  }
@@ -30,7 +32,7 @@ ion-content{
      font-family: Montserrat_Regular;
      font-weight: 200;
      padding-left: 30px;
-     color:#E5E5E5;
+     color:wheat;
      font-size:20px;
      align-content: right;
  }
